@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 body{
-background-image: url("C:\xampp\htdocs\aviones\public\imagenes\avion.jpg");
+background-image: url("http://localhost/aviones/public/imagenes/avion.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -26,11 +26,11 @@ background-color: rgba(0,0,0,0.5) !important;
 .social_icon span{
 font-size: 60px;
 margin-left: 10px;
-color: #FFC312;
+color: #e6e369;
 }
 
 .social_icon span:hover{
-color: white;
+color: rgb(255, 255, 255);
 cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ top: -45px;
 
 .input-group-prepend span{
 width: 50px;
-background-color: #FFC312;
+background-color: #65ecbf;
 color: black;
 border:0 !important;
 }
@@ -71,7 +71,7 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #FFC312;
+background-color: #65ecbf;
 width: 100px;
 }
 

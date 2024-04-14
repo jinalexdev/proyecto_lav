@@ -10,7 +10,8 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;
-
+        const ROLE_ADMINISTRATOR =1;
+        const ROLE_CLIENT =0;
     /**
      * The attributes that are mass assignable.
      *
